@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 60vw;
+  width: 48vw;
+  border: 1px solid black;
+  background-color: #61b34f;
+}
+
+#display-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-row {
+  height: 12vw;
+  display: flex;
+}
+
+#text-content {
+  border: .05em solid white;
+  flex-grow: 3;
+  color: white;
+  text-align: right;
+  font-size: 35px;
+
+
+}
+
+.squares {
+  border: .05px solid white;
+  width: 12vw;
+  color: white;
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.squares p {
+  margin: 0px;
+}
+
+#divide {
+  color: black;
+  background-color: #8fc59a;
+}
+
+#multiply {
+  color: black;
+  background-color: #8fc59a;
+}
+
+#subtract {
+  color: black;
+  background-color: #8fc59a;
+}
+
+#add {
+  color: black;
+  background-color: #8fc59a;
+}
