@@ -14,16 +14,12 @@ function addDisplay(event){
     display.innerHTML += btn.innerHTML;
 
   }
-  else if (btn.classList.contains("clear")){
+   else if (btn.classList.contains("clear")){
     var clearInput = "";
-    display.innerHTML = clearInput;
+    display.innerHTML = "";
   }
 
-  // else if (btn.classList.contains("operator")) {
-  //   evalArray.push(display.innerHTML);
-  //   operatorArray.push(btn.innerHTML);
-  //   console.log(evalArray);
-  // }
+  
 
   else if (btn.classList.contains("equals")) {
     solution = eval(display.innerHTML);

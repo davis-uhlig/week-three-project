@@ -5,6 +5,7 @@
   width: 48vw;
   border: 1px solid black;
   background-color: #61b34f;
+  cursor: pointer;
 }
 
 #display-row {
@@ -36,6 +37,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.squares:hover {
+  background-color: #8fc59a;
 }
 
 .squares p {
